@@ -1,0 +1,72 @@
+body {
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   background-color: #eaf3ff;
+}
+body a {
+   color: #202020;
+}
+body a:hover {
+   color: gray;
+   text-decoration: none;
+}
+.top-header {
+    display: flex;
+    align-items: center
+}
+.top-bar {
+   background-color: #014585;
+   color: #ffffff;
+   font-size: 14px;
+   padding: 16px 0 0;
+}
+.top-bar a {
+   color: #ffffff;
+}
+.top-bar a:hover {
+   color: #0f6fc7;
+}
+.top-bar i {
+   margin-right: 5px;
+}
+.page-title {
+    font-weight: bold;
+    border-bottom: 2px solid #fbbc05;
+    margin-bottom: 15px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-top: 0px
+px
+;
+}
+select:hover {
+  background-color: #dedbd7;
+}
+
+option:hover {
+  background-color: #dedbd7;
+}
+
+input:hover {
+  background-color: #dedbd7;
+}
+
+textarea:hover {
+  background-color: #dedbd7;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+button {
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
